@@ -1,0 +1,28 @@
+.accordian {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px auto;
+  border: 2px double #fff;
+  padding: 20px;
+}
+
+li {
+  background: aqua !important;
+  font-size: 20px;
+  color: #000;
+  margin: 10px;
+  border: 2px solid #000;
+}
+span {
+  float: right;
+}
+
+.content {
+  border: 2px solid aqua;
+  padding: 10px;
+  color: #fff;
+}
